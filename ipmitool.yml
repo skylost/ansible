@@ -1,0 +1,5 @@
+---
+- name: 'IPMItoom Playbook'
+  hosts: test
+  roles:
+    - { role: ipmitool, when: ansible_virtualization_role == 'host' }
