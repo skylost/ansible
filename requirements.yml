@@ -1,0 +1,5 @@
+# Install a role at a specific commit from GitHub
+
+- name: ntp
+  src: https://github.com/skylost/ansible-ntp.git
+  version: 1.0.0
